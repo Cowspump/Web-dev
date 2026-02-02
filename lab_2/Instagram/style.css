@@ -3,6 +3,12 @@ body {
     background-color: #fff;
     margin: 0;
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-container{
+    display: flex;
 }
 
 /*Left part*/
@@ -13,7 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
-
 }
 
 /*left-part upper*/
@@ -206,10 +211,18 @@ body {
     height: 35%;
 }
 
-.footer{
-    width: 100%;
+#footer{
+    width: 70%;
     height: 10%;
-    background-color: #000;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+
 }
 
 
