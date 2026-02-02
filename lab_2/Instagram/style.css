@@ -1,0 +1,216 @@
+
+body {
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+}
+
+/*Left part*/
+.left-part {
+    width: 57%;
+    height: 90vh;
+    border: 2px solid #dde2e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+/*left-part upper*/
+.upper1 {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    height: 48%;
+    background-color: #fff;
+    display: flex;
+    align-items: end;
+}
+
+.logo img {
+    width: 11%;
+    height: 75%;
+    margin-left: 4.5%;
+    margin-bottom: -1%;
+}
+
+.sentence {
+    width: 100%;
+    height: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sentence p {
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: -5px;
+    line-height: 1.8;
+    letter-spacing: -0.02em;
+}
+.sentence p span {
+    background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
+
+    /* 2. Главный секрет: "Обрезаем" фон по форме текста */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Делаем цвет самого текста прозрачным, чтобы фон просвечивал сквозь него */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/*left-part bottom*/
+.bottom1 {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom1 img {
+    width: 580px;
+    height: 460px;
+}
+
+/*right-part*/
+
+.right-part{
+    width: 43%;
+    height: 90vh;
+    border: 2px solid #dde2e8;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.log-into-line {
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.log-into-line button{
+    background: none;       /* Убираем серый фон кнопки */
+    border: none;           /* Убираем рамку */
+    font-size: 24px;        /* Делаем стрелочку побольше */
+    cursor: pointer;
+    margin-left: 60px;
+}
+.log-into-line p{
+    font-weight: 400;       /* Жирный текст, как в оригинале */
+    font-family: monospace, sans-serif;
+    margin-left: 15px;
+    letter-spacing: -0.05em;
+}
+
+.double-input{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.double-input input{
+    width: 80%;
+    height: 35%;
+    border: 1px solid #ccd3db;
+    border-radius: 16px;
+    padding-left: 16px;
+    background-color: #fff;
+    font-family: monospace, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.button1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn{
+    width: 80%;
+    height: 40%;
+    border: 1px solid #ccd3db;
+    border-radius: 24px;
+    background-color: #0064e0;
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+#forgot{
+    background-color: #fff;
+    border: none;
+    color: #000
+}
+
+
+.button2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+#facebook{
+    background-color: #fff;
+    border: 1px solid #ccd3db;
+    border-radius: 24px;
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#000;
+}
+#create{
+    background-color: #fff;
+    border: 1px solid #0064e0;
+    color: #0064e0;
+}
+#meta{
+    width: 12%;
+    height: 35%;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+}
+
+
+
